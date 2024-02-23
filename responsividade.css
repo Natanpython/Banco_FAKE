@@ -1,0 +1,29 @@
+@media(max-width: 740px){
+    .header{
+        flex-direction: column;
+    }
+    .logo {
+        justify-content: center;
+        align-items: center; 
+        padding-bottom: 40px;    
+    }
+
+    .menu{
+        flex-direction: column;
+    }
+    .menu li{
+        font-size: 2rem;
+        padding-bottom: 20px;
+    }
+    .atendimento{
+        flex-direction: column; 
+    }
+    .atendimento img{
+        width: 95%;
+        border-radius: 20px;
+    }
+    .rodape{
+        flex-direction: column;
+    }
+    
+}
